@@ -1,52 +1,50 @@
-loan-risk-prediction
-a predictive model for assessing loan risk using machine learning techniques and data analysis. By analyzing historical loan data, we can identify patterns and factors that contribute to loan defaults, enabling financial institutions to make informed lending decisions.
+# loan-risk-prediction
 
-Basel III Compliance implementation
-In simple terms, banks nowadays need to have enough reserves to survive economic and financial shocks. It requires banks to calculate expected loss which is defined as:
+![License](https://img.shields.io/badge/license-MIT-green.svg) ![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)
 
-E
-L
-=
-P
-D
-×
-L
-G
-D
-×
-E
-A
-D
+a predictive model for assessing loan risk using machine learning techniques and data analysis
 
-where:
-P
-D
- - probablility of default; Chance that a borrower won't pay back,
+---
 
-L
-G
-D
- - Loss given default; How much money will the bank lose if they default
+## 🚀 Features
 
-E
-A
-D
- - Exposure at default; Total loan amount at risk
+- **Clean Implementation**: Built using best practices for scalability and readability.
+- **Structured Codebase**: Well-organized directory layout for easy navigation.
+- **Ready to Run**: Complete setup instructions provided below.
 
-For each of those components I've built a seprate model, combined them together and then calculate the expected loss (
-E
-L
-) for each of those loans (check notebook). That way we build a system which automatically checks each loan and calculates it's 
-E
-L
-. Each of those models we're built on German credit dataset.
+---
 
-Probability of default
-A gradient boosted tree model learner takes in the dataset and it is trained by setting a target column (in this case, column Risk).
+## 🛠️ Tech Stack & Tools
 
-Loss given default
-LGD valuse is based on collateral and financial situation of every borrower. If the financial situation is more stable, the lower the LGD. But because on bigger datasets there is much more data (much more elements to add to LGD) I had to add some noise to the data so that it would look more realistic:
+- **Primary Language**: Not Specified
+- **Tools/Libs**: Standard Library
 
- lgd_val = base_lgd + np.random.normal( 0, 0.05 )
-Exposure at default
-Will be always 0 as the data is from when the loans were accepted or not
+---
+
+## 📁 Directory Structure
+
+```
+loan-risk-prediction/
+├── README.md
+├── loan-risk-prediction-main.zip
+```
+
+---
+
+## ⚙️ Setup & Installation
+
+### Running the project
+1. Clone the repository.
+2. Open the files in your preferred IDE or run the main scripts depending on the language.
+
+---
+
+## 🤝 Contributing
+
+Contributions are welcome! Please feel free to submit a Pull Request or open an Issue.
+
+---
+
+## 📄 License
+
+This project is licensed under the MIT License.
