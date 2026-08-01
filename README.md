@@ -4,26 +4,14 @@
 
 ---
 
-## 📖 Overview
-Predicts credit risk classification for borrower applications to optimize lending approvals.
+## 📋 Project Specifications
 
----
-
-## 📊 Project Specifications
-
-### 1. Dataset Details
-* **Source**: Lending Club loan risk dataset
-* **Size**: 5,000+ borrower profiles
-
-### 2. Method & Approach
-* **Approach**: Random Forest Classifier and Gradient Boosting Classifier
-* **Metric/Result**: Achieved an F1-score of 0.84 for high-risk loan detection
-
-### 3. Tech Stack & Tools
-* **Technologies**: Python, pandas, scikit-learn
-
-### ✨ Differentiating Features
-- **Handles imbalanced dataset using SMOTE oversampling to improve high-risk detection sensitivity**
+* **Overview**: "Predicts credit risk classification for borrower applications to optimize lending approvals."
+* **Dataset**: "Lending Club loan risk dataset, 5,000+ borrower profiles"
+* **Method**: "Random Forest Classifier and Gradient Boosting Classifier"
+* **Results**: "Achieved an F1-score of 0.84 for high-risk loan detection"
+* **Tech stack**: "Python, pandas, scikit-learn"
+* **Unique feature**: "Handles imbalanced dataset using SMOTE oversampling to improve high-risk detection sensitivity"
 
 ---
 
